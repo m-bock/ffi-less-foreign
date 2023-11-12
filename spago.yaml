@@ -10,7 +10,6 @@ package:
     dependencies: []
     main: Test.Main
 workspace:
-  extra_packages:
-    ts-bridge: 2.2.0
+  extra_packages: {}
   package_set:
-    registry: 43.3.0
+    registry: 44.3.0
