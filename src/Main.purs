@@ -28,6 +28,9 @@ foreign import val5
 
 main :: Effect Unit
 main = do
+  -- Some examples of using the values from the FFI imports
+  -- Run `spago run` to see the output 
+
   logShow (val1 + 13.0)
   logShow val2.name
   logShow val2.hobbies
